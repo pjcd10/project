@@ -1,0 +1,152 @@
+@charset "utf-8";
+/* CSS Document */
+#box{font-family:"微软雅黑";word-spacing:4px;margin:0;padding:0;}
+a{text-decoration:none;color:#18bbfe;}
+a:hover{cursor: pointer;}
+#headerLeft{
+	width:130px;height:80px;
+	background:#18bbfe;
+	float:left;
+	text-align:center;
+	}
+#headerLeftBottom{
+	color:#fff;
+	font-size:18px;
+	font-weight:800px; 
+	}
+#headerRight{
+	fl0at:left;
+	height:80px;
+	margin-left:120px;
+	background:#dce1e5;
+	}
+#headerRightLeft{
+	height:20px;
+	width:140px;
+	background:#fff;
+	font-weight:600px;
+	color:#85ffff;
+	border:1px solid #85ffff;
+	border-radius:20px;
+	float:left;
+	margin:25px 0 25px 900px;
+	padding:7px 0;
+	text-align:center;
+	}
+#headerRightLeft:hover{
+	border-color:#18bbfe;
+	background:#18bbfe;
+	}
+#headerRightLeft>a:hover{
+	color:#fff;
+	border-color:#18bbfe;
+	background:#18bbfe;
+	}
+#headerRightRight{
+	position:relative;
+	float:left;
+	margin:15px 6px;
+	}
+#headerRightCenter{
+	position:relative;
+	float:left;
+	margin:25px 14px;
+	}
+#left{
+	position:absolute;
+	width:130px;
+	height:2000px;
+	background:#222d33;
+	float:left;
+	}
+#right{
+	height:2000px;width:1203px;
+	float:left;
+	position:absolute;
+	margin-left:130px;
+	background:#eceff4;
+	}
+#rightTopLeft{
+	font-size:19px;
+	font-weight:600px;
+	float:left;
+	margin-left:30px;
+	position:absolute;
+	margin-top:30px;
+	}
+#tp{
+	margin-top:28px;
+	margin-left:918px;
+	position:absolute;
+	}
+#rightTopCenter{
+	margin-left:947px;
+	font-size:17px;
+	font-weight:500px;
+	position:absolute;
+	margin-top:30px;
+	}
+#circle{
+	width:8px;
+	height:8px;
+	background:#18bbfe;
+	border-radius:100%;
+	margin-top:38px;
+	margin-left:1080px;
+	float:left;
+	position:absolute;
+	}
+#rightTopRight{
+	margin-top:30px;
+	margin-left:1103px;
+	font-size:17px;
+	font-weight:500px;
+	position:absolute;
+	}
+#rightMain{
+	border:1px;width:1095px;height:1800px;
+	background:#fff;
+	margin:70px 20px 0 30px;
+	position:absolute;
+	padding:30px 25px;
+	border-radius:2px;
+	font-size:16px;
+	}
+#rM1{
+	font-size:18px;
+	font-weight:500px;
+	}
+p2{line-height:45px;}
+#rM2{color:#18bbfe;}
+.lettle{font-weight: 600px;}
+#lettle1{padding-top: 80px; padding-left: 260px;}
+#url,#Token{width: 500px; height: 40px; border:1px solid #ccc; margin-left: 20px;}
+#verify{padding-top: 8px; padding-left: 332px; font-weight: 600px; color: #18bbfe;}
+#lettle2{padding-top: 40px; padding-left: 243px;}
+#state{padding-top: 8px; padding-left: 332px; color: #a19fa0; font-weight: 600px;}
+#message{padding-top: 24px; padding-left: 179px;}
+#m{padding-left: 27px; line-height: 38px;}
+#danxuankuang{line-height: 38px; padding-left: 332px;}
+.cs{color :#a19fa0; padding-left: 42px;}
+
+label{ position: relative; padding:0px 60px 0px 45px; cursor: pointer;}
+label input{ display: none;}
+label span{ position: absolute; left: 0; top: 0; bottom: 0; width: 22px; height: 22px; margin: auto; border: 1px solid #ccc; 						border-radius: 100%;}
+label span:after{ content: ''; position: absolute; top: 0; bottom: 0; left: 0; right: 0; width: 13px; height: 13px; margin: auto; border-radius: 100%; background:#24D38B; transform: scale(0); transition: all .3s;}
+label input:checked + span{border-color:#24D38B;  background: #fff;}
+label input:checked + span:after{content:'';transform: scale(1);}
+
+.lettle3{padding-left: 170px; padding-top: 40px; font-weight: 600px;}
+#encoding{width: 400px; height: 40px ;border: 1px solid #ccc; margin-left: 20px;}
+#random{width: 90px; height: 10px; background: #18bbfe; color: #fff; float: right ;border: 1px;
+		margin-right: 240px ;margin-top: 0px; text-align: center ;padding:12px 0 22px 0; border-radius: 2%;}
+#random:hover{background:#49D9F9;cursor:pointer;}
+#question{padding-left:170px;padding-top:14px;}
+#showHide{font-weight:600px;}
+#sH{padding-right:240px;float:right;}
+#sH1{padding-left:150px;padding-top:40px;}
+#time,#number{width:510px;height:40px;border:1px solid #ccc;margin-left:20px;}
+#sH2{padding-left:150px;padding-top:20px;}
+#sH3{padding-left:332px;color:#a19fa0;}
+#Submit{width:110px;height:30px;font-weight:600px;font-size:16px;color:#fff;float:right;margin-right:240px;margin-top:30px;text-align:center;padding:12px 0 35px 0;border-radius:2%;background:#18bbfe;border:1px;}
+#Submit:hover{cursor:pointer;background:#49d9f9;}

@@ -1,0 +1,86 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>无标题文档</title>
+<link href="third-party development platform.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+<div id="box">
+	<div id="header">
+		<div id="headerLeft">
+        	<img src="yun白.png" width="70px">
+            <div id="headerLeftBottom">OneNET</div>
+        </div>
+        <div id="headerRight">
+        	<span id="headerRightLeft"><a href="#">开发者中心</a></span>
+            <span id="headerRightCenter"><a href="#"><img src="ring.jpg"/></a></span>
+            <span id="headerRightRight"><a href="#"><img src="pictrue.png" /></a></span>
+        </div>
+    </div>
+    <div id="left"></div>
+    <div id="right">
+		<div id="rightTop">
+        	<div id="rightTopLeft">基本配置</div>
+            <div id="tp"><img src="tp7.jpg"></div>
+            <div id="rightTopCenter">第三方开发平台</div>
+            <div id="circle"></div>
+            <div id="rightTopRight">基本配置</div>
+        </div>
+        <div id="rightMain">
+        	<div id="rM1">请填写服务器配置</div>
+        	<p2>请填写接口配置信息，此信息需要你拥有的服务器资源。填写的URL需要需要正确响应OneNET发送的Token验证，请阅读
+        	<span id="rM2"><a href="#">接入指南</a></span><br></p2>
+        	<hr>
+        	<form action="#">
+        		<div class="lettle" id="lettle1">URL：
+            		<input type="text" placeholder="必须以http://开头" id="url"/>
+                </div>
+                <div id="verify"><a href="#">验证说明</a></div>
+                <div class="lettle" id="lettle2">Token：
+                	<input type="text" placeholder="必须以英文或数字，长度为3-32字符" id="Token"/>
+                </div>
+                <div id="state">Token将用于接入验证，可自行定义。</div>
+                
+                <div id="message" class="lettle">
+                	消息加解密方式：<span id="m">请根据业务需求，选择加解密类型，启动后将立即生效。</span>
+                </div>
+                
+                <div id="danxuankuang">
+                	<label>
+                		<input type="radio" name="cleartext-safety" class="cleartext" checked="checked"/><span></span>明文模式
+	                </label>
+    	            <div class="cs">明文模式下不适合消息加解密功能，安全系数较低</div>
+        	        <label>
+            	    	<input type="radio" name="cleartext-safety" class="safety" /><span></span>安全模式（推荐）
+                	</label>
+                	<div class="cs">安全模式下消息为纯密文，需要开发者加密和解密，安全系数高</div>
+                </div>
+                
+                <div class="lettle3">EncodingAESKey：
+                	<input type="text" placeholder="由43位字符组成，可随机修改，字符范围为A-Z,a-z,0-9" id="encoding"/>
+                	<div id="random">随机生成</div>
+                	<div id="question"><a href="#">什么是EncodingAESKey?</a></div>
+                </div>
+                
+                <div id="showHide">
+                    <div id="sH"><a href="#">更多高级设置</a></div>
+                    <div id="sH1">推送时间限制（秒）：
+                    	<input type="text" placeholder="请输入小于60的整数" id="time"/>
+                    </div>
+                    <div id="sH2">推送数据限制（个）：
+                    	<input type="text" placeholder="请输入小于1000的整数" id="number"/>
+                    </div>
+                    <div id="sH3">设置【推送时间限制】、【推送数据限制】可以实现批量推送数据，减少<br>服务端压力，当满足【推送时间限制】
+                    	或者【推送数据限制】要求后，<br>OneNET将第三方推送数据。推送设置响应数据只包括：公开协议产品<br>下设备数据点，私有协
+                    	议产品下设备传感器数据。如果没有设置【推送时<br>间限制】或【推送数据限制】，将默认数据实时推送。
+                    </div>
+                </div>
+            	<input type="submit" value="提交" id="Submit"/>
+        	</form>
+        </div>
+    </div>
+</div>
+</body>
+</html>

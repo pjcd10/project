@@ -1,0 +1,42 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>无标题文档</title>
+<link href="Add vice.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+<div id="box">
+	<div id="header">
+    	<span id="inflowDevice">接入设备</span>
+    	<a href="#"><span id="httpxieyi">HTTP协议</span></a>
+    </div><hr>
+	<form action="#">
+    <div id="main">
+    	<div id="mainName">
+        	<img src="star.png" width="12px"><label for="name">设备名称</label>
+        </div><br>
+		<input type="text" placeholder="设备名称" id="name"><br><br>
+		<div id="mainNumber">
+        	<img src="star.png" width="12px"><label for="number">设备编号</label>
+        </div><br>
+		<input type="text" placeholder="请输入厂商编码的设备标识号码" id="number">
+		<p>设备中不能设置相同的字符串，最多512个字母，数字或字母和数<br>字组合的字符串。</p>
+		<div id="mainSecrecy">
+        	<img src="star.png" width="12px"><label>数据保密性</label>
+        </div><br>
+		<div class="publicPrivate">
+			<label><input type="radio" name="public_private" checked="checked" id="private" class="pp"><span></span>私有<label>
+			<label><input type="radio" name="public_private" id="public" class="pp"><span></span>公开</label>
+		</div>
+     </div>
+		<hr><br>
+		<div id="footer">
+        <input type="submit" value="接入设备" id="footerSubmit">
+		<input type="reset" value="取消" id="footerReset">
+		</div>
+	</form>
+</div>
+</body>
+</html>

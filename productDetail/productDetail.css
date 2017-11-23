@@ -1,0 +1,18 @@
+@charset "utf-8";
+/* CSS Document */
+#box{font-family:"微软雅黑";
+	 color:#494949;}
+a{text-decoration:none;cursor:pointer;}
+#a2{padding-left:316px;}
+#a3{padding-left:253px;}
+#a4{padding-left:253px;}
+#b2{padding-left:284px;}
+#b4{padding-left:268px;}
+#b1,#b3,#a1,#a5,#a6,#a7{padding-left:300px;}
+#header,#technology,#productMessage{font-size:19px;}
+#product,#parameters{font-size:16px;}
+#maintop,#mainbottom{line-height:37px;}
+.a34>a{color:#18bbfe;}
+#bottom{width:110px;height:5px;font-weight:600px;font-size:17px;float:right;margin-right:240px;margin-top:30px;text-align:center;padding:15px 0 35px 0;border-radius:3%;background:#18bbfe;border:1px;}
+#bottom>a{color:#fff;}
+#bottom:hover{background:#49d9f9;}
